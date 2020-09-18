@@ -1,0 +1,54 @@
+div{
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid white;
+    background-color: teal;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+    font-style: italic;
+}
+body{
+    margin: auto;
+    background-color: skyblue;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+}
+.logo
+{
+
+}
+.search{
+    float: inline-start;
+}
+.main-menu{
+    background-color: teal;
+}
+.main-menu>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.main-menu>ul>li{
+    display: inline-block;
+}
+.main-menu>ul>li>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.main-menu>ul>li>a:hover{
+    background-color: orange;
+}
+.banner{
+}
+.vid{
+    background-color: teal;
+}
